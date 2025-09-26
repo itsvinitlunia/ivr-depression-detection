@@ -1,0 +1,8 @@
+{
+    "name": "depression-detection-ivr",
+    "version": "1.0.0",
+    "dependencies": {
+        "twilio": "^4.0.0",
+        "node-fetch": "^2.6.7"
+    }
+}

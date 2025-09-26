@@ -1,0 +1,15 @@
+{
+    "name": "depression-detection-ivr",
+    "version": "1.0.0",
+    "description": "IVR system for depression detection using voice analysis",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "twilio": "^4.0.0"
+    },
+    "keywords": ["ivr", "mental-health", "twilio", "depression-detection"],
+    "author": "Your Name",
+    "license": "MIT"
+}

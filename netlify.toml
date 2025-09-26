@@ -1,0 +1,18 @@
+[build]
+  functions = "netlify/functions"
+
+[build.environment]
+  TWILIO_ACCOUNT_SID = "your_account_sid_here"
+  TWILIO_AUTH_TOKEN = "your_auth_token_here"
+  TWILIO_PHONE_NUMBER = "+1234567890"
+  EMERGENCY_CONTACT_NUMBER = "+1234567890"
+
+[[redirects]]
+  from = "/voice"
+  to = "/.netlify/functions/twilio-voice"
+  status = 200
+
+[[redirects]]
+  from = "/sms"
+  to = "/.netlify/functions/twilio-sms"
+  status = 200
