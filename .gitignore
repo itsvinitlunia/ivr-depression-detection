@@ -1,0 +1,9 @@
+# Recordings directory - ignore contents but keep directory
+recordings/*
+!recordings/.gitkeep
+
+# Node modules
+node_modules/
+
+# Environment variables
+.env
